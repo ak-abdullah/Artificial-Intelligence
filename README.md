@@ -1,4 +1,4 @@
-# AI-Based Student Clustering and Examination Report Generator
+# 🤖 AI-Based Student Clustering and Examination Report Generator
 
 ## 📌 Project Overview
 
@@ -58,21 +58,4 @@ Two datasets were used:
 
 ---
 
-## 📎 Output
 
-- `student_report_<roll_number>.pdf`
-- `faculty_report_<faculty_name>.pdf`
-
-Each report includes:
-- Cluster ID
-- Student/peer list
-- Batch and domain info
-- Assigned faculty (if applicable)
-
----
-
-## 📈 Use Cases
-
-- Viva or Capstone Project evaluation grouping
-- Faculty planning for student assessments
-- Automated student group assignment
