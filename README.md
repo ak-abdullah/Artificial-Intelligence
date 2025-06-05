@@ -4,7 +4,6 @@
 
 This project utilizes **K-Means Clustering**, an unsupervised machine learning algorithm, to group students based on their **domain of study** and **batch year**. The primary objective is to automate the clustering process for examination purposes and generate personalized **PDF reports** for both **students** and **faculty**.
 
-The project is based on real data from **FAST-NUCES**, using both student and faculty datasets.
 
 ---
 
@@ -12,7 +11,7 @@ The project is based on real data from **FAST-NUCES**, using both student and fa
 
 - 📊 Cluster students based on domain and batch using K-Means
 - 🧠 Apply unsupervised machine learning for intelligent grouping
-- 📁 Preprocess and handle real student/faculty datasets from FAST-NUCES
+- 📁 Preprocess and handle student/faculty datasets
 - 📄 Generate PDF reports:
   - Individual student report with cluster info
   - Faculty-wise student cluster reports
@@ -35,7 +34,6 @@ Two datasets were used:
   - Domain
   - Assigned students (optional)
 
-> Note: All datasets are anonymized and used solely for academic purposes.
 
 ---
 
@@ -54,7 +52,7 @@ Two datasets were used:
 1. **Load Data**: Read and clean student and faculty data from CSV files.
 2. **Cluster Students**: Use K-Means on features like domain and batch to group students.
 3. **Map Faculty**: Optionally match faculty to clusters by domain.
-4. **Generate Reports**: Export student and faculty reports as PDFs.
+4. **Generate Reports**: Export student and faculty reports as PDF.
 
 ---
 
